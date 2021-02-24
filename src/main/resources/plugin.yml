@@ -1,0 +1,17 @@
+name: ${project.name}
+description: ${project.description}
+author: nahkd123
+version: ${project.version}
+api-version: 1.16
+main: me.nahkd.itemssack.ItemsSack
+
+commands:
+  itemssack:
+    description: The one and only command that's related to this plugin
+    permission: itemssack.command.main
+    aliases: [issk]
+    
+permissions:
+  itemssack.command.main:
+    description: Allow player to use this command
+    default: op
