@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.nahkd</groupId>
   <artifactId>itemssack</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>ItemsSack</name>
   <description>fodshiodasiodsaljdklas</description>
   
@@ -28,6 +28,7 @@
   
   <dependencies>
     <dependency>
+      <!-- For now we'll use the latest version for API. -->
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
       <version>1.16.5-R0.1-SNAPSHOT</version>
